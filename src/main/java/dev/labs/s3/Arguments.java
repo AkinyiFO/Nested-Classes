@@ -11,26 +11,6 @@ public class Arguments {
     }
 }
 
-class OuterClass {
- int z = 0;
-
-     class InnerClass {
-
-     static int y;
-     int x;
-
-     StaticNestedClass staticOb = new StaticNestedClass();
-
-    }
-    static class StaticNestedClass {
-        OuterClass ino = new OuterClass();
-        OuterClass.InnerClass inout = ino.new InnerClass();
-        int x = ino.z;
-        int z = inout.x;
-        StaticNestedClass staticOb = new StaticNestedClass();
-    }
-}
-
 // Ref: https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html
 class Circle {
     private int originOne;

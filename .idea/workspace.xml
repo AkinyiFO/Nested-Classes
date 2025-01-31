@@ -8,10 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d935d006-6aa6-4fb6-b808-317957bd2c17" name="Changes" comment="&quot;Initial&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/labs/s3/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/labs/s3/ShadowTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/labs/s3/Arguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/labs/s3/Arguments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/labs/s3/Arguments.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/labs/s3/Arguments.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dev/labs/s3/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/labs/s3/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/labs/s3/OuterClass$InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/labs/s3/OuterClass$InnerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/labs/s3/OuterClass$StaticNestedClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/labs/s3/OuterClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/labs/s3/OuterClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +43,12 @@
     &quot;assignee&quot;: &quot;AkinyiFO&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/AkinyiFO/Class-Members.git&quot;,
-    &quot;accountId&quot;: &quot;0c8b5c79-e5b0-425a-9bc9-ec35fb47c7fb&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AkinyiFO/Nested-Classes.git",
+    "accountId": "0c8b5c79-e5b0-425a-9bc9-ec35fb47c7fb"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -60,13 +64,14 @@
     "Application.HelloWorldApp.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ReturningValueFromMethod.executor": "Run",
+    "Application.ShadowTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.google.cloudcode.ide_session_index": "20250130_0002",
+    "com.google.cloudcode.ide_session_index": "20250131_0002",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USER/OneDrive/Videos/Java/Github/ClassMembers",
+    "last_opened_file_path": "C:/Users/USER/OneDrive/Videos/Java/Github/ShadowingWithInnerClasses",
     "onboarding.tips.debug.path": "C:/Users/USER/Downloads/java_2024-08-29_16-39Z/HelloWorld/src/main/java/dev/labs/s3/Main.java",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
@@ -76,8 +81,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\OneDrive\Videos\Java\Github\ReturningValueFromMethod\src\main\java\dev\labs\s3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\OneDrive\Videos\Java\Github\ShadowingWithInnerClasses\src\main\java" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Arguments">
+  <component name="RunManager" selected="Application.ShadowTest">
     <configuration name="Arguments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.labs.s3.Arguments" />
       <module name="DefiningMethods" />
@@ -135,8 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShadowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.labs.s3.ShadowTest" />
+      <module name="DefiningMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.labs.s3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShadowTest" />
         <item itemvalue="Application.Arguments" />
         <item itemvalue="Application.ReturningValueFromMethod" />
         <item itemvalue="Application.Main" />
